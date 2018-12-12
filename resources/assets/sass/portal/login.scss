@@ -1,0 +1,19 @@
+.login-form {
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+form input[type=submit] {
+  float: right;
+}
+
+@media(max-width: 1057px) {
+  .login-form {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-form {
+    margin-bottom: 20px;
+  }
+}

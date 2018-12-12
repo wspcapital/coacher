@@ -1,0 +1,128 @@
+//footer
+
+#footer {
+  margin-top: 60px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background: $bg-footer;
+  text-align: center;
+  padding-top: 89px;
+  min-height: 350px;
+}
+.footer-content {
+  padding-bottom: 30px;
+}
+.sprite {
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: $sprites;
+}
+.facebook, .twitter, .linkedin, .youtube {
+  width: 54px;
+  height: 52px;
+}
+.facebook {
+  background-position: -525px -52px;
+}
+.facebook:hover{
+  background-position: -525px 0;
+}
+.twitter {
+  background-position: -687px 0;
+}
+.twitter:hover{
+  background-position: -633px 0;
+}
+.linkedin {
+  background-position: -579px -52px;
+}
+.linkedin:hover{
+  background-position: -579px 0;
+}
+.youtube{
+  background-position: -687px -52px;
+}
+.youtube:hover{
+  background-position: -633px -52px;
+}
+.footer-form {
+  text-align: left;
+}
+#footer p {
+  color: $menucolor;
+  margin: -30px 0 12px;
+  text-align: center;
+}
+#footer input {
+  height: 51px;
+  color: #000;
+  border-radius: 0;
+}
+input[type=submit] {
+  padding: 5px;
+  font-family: $bold-font;
+  font-size: 24px;
+  line-height: 23px;
+  margin-bottom: 0;
+}
+.copyright {
+  color: #FFFFFF;
+  text-align: right;
+}
+.copyright em {
+  display: block;
+}
+.iw-logo {
+  margin: -10px 0 0 20px;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  background-position: -455px 0;
+}
+.iw-logo a {
+  bottom: 0;
+  padding: 7px 16px;
+}
+.pull-right a {
+  bottom: 0;
+  padding: 7px 16px;
+  margin-left: 10px;
+}
+
+@media(max-width: 768px) {
+  #footer {
+    padding-top: 50px;
+    height: 315px;
+  }
+  .footer-form {
+    margin-top: 40px;
+    text-align: center;
+  }
+}
+@media(max-width: 493px) {
+  #footer {
+    height: 375px;
+  }
+}
+@media(max-width: 441px) {
+  #footer {
+    height: 432px;
+  }
+}
+@media(max-height: 810px) {
+  #footer {
+    position: relative;
+  }
+}
+@media(max-width: 991px) {
+  .social {
+    margin-top: 15px;
+  }
+  .copyright {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}

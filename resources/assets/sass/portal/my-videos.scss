@@ -1,0 +1,69 @@
+#upload-video-form {
+  display: inline-block;
+}
+
+#progress {
+  border: 3px solid #ccc;
+  background: #ffc7a9;
+  margin-bottom: 18px;
+  width: 30%;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile + label {
+  display: inline-block;
+}
+
+.inputfile + label {
+  cursor: pointer; /* "hand" cursor */
+}
+
+.button-block {
+  margin: 20px 0;
+  position: relative;
+}
+
+.info-block {
+  padding: 20px;
+}
+
+.progress-img {
+  margin: 20px 0;
+}
+
+.order-form {
+  padding: 20px;
+}
+
+.progress-img {
+  border-bottom: 2px #e7e7e7 solid;
+}
+
+.btn-primary {
+  width: inherit;
+}
+
+#faq-modal > .modal-dialog {
+  width: 75%;
+}
+
+.one-video {
+  margin: 10px;
+}
+
+.loader {
+  img {
+    height: 50px;
+    width: 50px;
+    margin-left: 45%;
+    margin-top: 45px;
+  }
+}

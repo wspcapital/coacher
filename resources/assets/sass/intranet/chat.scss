@@ -1,0 +1,47 @@
+@import "./../variables";
+
+#chat {
+  margin-top: 50px;
+}
+#message-block {
+  height: 400px;
+  background-image: url("./../../img/homepage/slider-background.jpg");
+  background-size: cover;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#message{
+  li {
+    list-style: none;
+    background: #FFFFFF;
+    border-radius: 30px;
+    margin: 5px;
+    padding: 10px;
+  }
+}
+
+.message {
+  width: 50%;
+  b{
+    color: $orange-color;
+  }
+}
+
+.bounceInRight {
+  float: left;
+}
+.bounceInLeft {
+  float: right;
+}
+
+form {
+  margin-top: 10px;
+}
+#user-message{
+  margin-bottom: 40px;
+}
+
+#submit {
+  width: 100%;
+  height: 45px;
+}

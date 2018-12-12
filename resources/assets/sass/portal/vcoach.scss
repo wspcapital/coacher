@@ -1,0 +1,38 @@
+@import "./../video-chat";
+
+.chat-button {
+  position: fixed;
+  z-index: 999;
+  top: 50%;
+  right: 0;
+  padding: 20px;
+  background: #f2a876;
+  border-radius: 20px;
+  opacity: 0.5;
+}
+
+.chat-button:hover {
+  opacity: 1;
+}
+.clearfix {
+  margin: 15px;
+}
+
+#load-vcoach, #join-chat {
+  width: 100%;
+}
+
+.table-striped {
+  width: 100%;
+  margin: 30px 0px;
+  td {
+    padding: 10px;
+  }
+}
+#close-modal {
+  margin-top: 10px;
+}
+
+#error-term {
+  display: none;
+}

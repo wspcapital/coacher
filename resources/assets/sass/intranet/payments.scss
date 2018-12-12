@@ -1,0 +1,72 @@
+@import "./../responsive-table";
+
+.clearfix {
+  text-align: center;
+}
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    z-index: 0;
+}
+
+.text-danger {
+  color: #a94442!important;
+}
+/* Left Block*/
+@media (max-width: 1310px) {
+  #profile {
+    display: none;
+    position: absolute;
+    left: 0;
+    z-index: 5;
+    width: 140%;
+    background: #bab4b4;
+  }
+  #left-block-toggle {
+    display: block!important;
+  }
+  .content-inner {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  #profile {
+    width: 33.3%;
+  }
+}
+
+@media (max-width: 555px) {
+  #profile {
+    width: 50%;
+  }
+}
+@media (max-width: 400px) {
+  #profile {
+    width: 100%;
+  }
+}
+
+/* Table */
+@media screen and (max-width: 1099px) {
+  table#miyazaki caption { background-image: none; }
+  table#miyazaki thead { display: none; }
+  table#miyazaki tbody td {
+    display: block; padding: .6rem;
+    p {
+      display: inline;
+      padding-left: 25px;
+    }
+  }
+  table#miyazaki tbody tr td:first-child {
+    background: #666; color: #fff;
+  }
+  table#miyazaki tbody td:before {
+    content: attr(data-th);
+    font-weight: bold;
+    display: inline-block;
+    width: 6rem;
+  }
+}

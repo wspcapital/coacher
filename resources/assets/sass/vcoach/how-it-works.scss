@@ -1,0 +1,38 @@
+.bumpbox {
+  margin: 20px 0 20px 0;
+  color: #dd5900;
+  text-align: center;
+  font-size: 29px;
+}
+#how-it-works img {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.bumpbox.bumped {
+  margin-top: 10px;
+}
+
+h1 {
+  color: #c6c5c5;
+  font-size: 47px;
+  margin: 0 0 5px 0;
+  font-family: "MyriadPro-Bold";
+}
+h3 {
+  color: #3e83b1;
+  font-size: 23px;
+  font-family: "MyriadPro-Bold";
+}
+.question {
+  color: #4c89c2;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+@media(max-width: 767px) {
+  #how-it-works img {
+    margin: auto;
+    padding-bottom: 5px;
+  }
+}

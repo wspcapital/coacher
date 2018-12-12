@@ -1,0 +1,21 @@
+.quantity {
+  width: 65px!important;
+  font-size: 18px;
+}
+
+.btn, .btn-info {
+  margin-bottom: 0;
+}
+.small {
+  margin-right: 20px;
+}
+.text-grey {
+  color: #4d4d4d;
+}
+.text-blue {
+  color: #76c0ff;
+}
+.btn-primary[disabled] {
+  background-color: #428bca;
+  border-color: #357ebd;
+}

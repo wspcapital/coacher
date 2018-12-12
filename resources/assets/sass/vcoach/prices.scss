@@ -1,0 +1,51 @@
+.prices.table {
+  overflow: hidden;
+  background: #305d90;
+  color: #fff;
+  border: 3px solid #c2c2c2;
+  border-radius: 21px;
+  border-collapse: separate;
+}
+.prices.table thead {
+  text-transform: uppercase;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td,
+.table > tbody > tr > td, .table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+.prices.table h1 {
+  font-family: "MyriadPro-Bold";
+  font-size: 36px;
+  color: #fff;
+  margin: 0;
+}
+
+.prices.table tbody td + td, .prices.table tfoot td + td {
+  background: #cacaca;
+  text-align: center;
+  font-size: 54px;
+  color: #dd5900;
+  text-shadow: 2px 2px #fff;
+}
+.prices.table td + td {
+  border-left: 1px solid #ddd;
+}
+
+.btn, input[type=submit] {
+  text-shadow: none;
+  border-radius: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  padding: 5px;
+  font-family: MyriadPro-Bold;
+  font-size: 24px;
+  line-height: 23px;
+}

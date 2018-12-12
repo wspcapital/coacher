@@ -1,0 +1,55 @@
+@import "./../video-chat";
+@import "./../responsive-table";
+
+.clearfix>.btn {
+  margin-left: 5px;
+}
+.user-save {
+  background: #DDDDDD;
+  color: #000000;
+}
+.user-save:hover {
+  color: #ffffff;
+  background: #dddddd;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.inputfile + label {
+  display: inline-block;
+}
+
+.inputfile + label {
+  cursor: pointer; /* "hand" cursor */
+}
+.clearfix {
+  text-align: right;
+}
+.video a {
+  cursor: pointer;
+}
+.filename, .filename a, .filename label {
+  color: #337ab7;
+}
+.chat-button{
+  a{
+    margin: 15px;
+  }
+}
+#workshop-title, #learning-title, #webinar-title {
+  display: none;
+}
+
+  #workshop-video-player {
+    margin-top: 20px;
+  }
+  #order-history {
+    @extend #workshop-video-player
+  }
+

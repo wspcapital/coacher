@@ -1,0 +1,136 @@
+@import "intranet";
+
+.booking-info {
+  padding: 10px;
+  padding-left: 30px;
+  background: #fffcfc;
+  font-size: 20px;
+  border: 2px solid #DBDBDB;
+}
+.dropdown-menu {
+  top: initial;
+  left: initial;
+}
+.element-group {
+  background: $body-bg;
+}
+.trainer-list li{
+  list-style-type: none;
+  display: inline-block;
+  width: 30.333333%;
+}
+.trainer-info {
+  background: #F5F5F5;
+  padding: 15px;
+}
+
+.trainer-title > a {
+  color: #000000;
+  cursor: pointer;
+  font-size: 20px;
+}
+.trainer-title > a:hover {
+  color: #DD5900;
+  font-size: 22px;
+  text-decoration: underline;
+}
+.trainer-title > a > i{
+  color: #d63535;
+}
+
+///lessons
+#external-events {
+  margin-top: 55px;
+  max-height: 600px;
+  overflow-y: auto;
+
+}
+.list-group>.fc-event {
+  background: #eeeeee!important;
+  color: #000000!important;
+  border-color: #ffffff!important;
+}
+/*
+.fc-event:active {
+  //background: #000!important;
+  position: absolute;
+}*/
+.list-group>.event-active {
+  position: absolute;
+}
+
+#btnDeleteEvent {
+  position: absolute;
+  bottom: 0;
+  right: 1px;
+  color: #ffffff;
+  font-size: 20px;
+  z-index: 2;
+}
+
+#btnEditEvent {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  right: 62px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#btnDeleteEvent:hover, #btnEditEvent:hover {
+  font-size: 24px;
+}
+
+.booking-block {
+  background: #f5f5f5;
+  padding: 25px;
+}
+
+.files-block {
+  margin: 10px;
+  padding: 10px;
+}
+.button-block {
+  padding: 20px;
+}
+.inputfile {
+  width: .1px;
+  height: .1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile+label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 3px 20px;
+}
+
+/// modal booking
+.modal-content {
+  background: #ffffff;
+}
+
+.wrapper{
+  padding: 15px;
+}
+
+#printParticipantsInasModal {
+  padding-left: 15px;
+  .modal-dialog {
+    width: 100%;
+  }
+}
+  #modal-logistic {
+    width: 70%;
+  }
+  #save-as1, #save-as2, #submitForm {
+    @extend input[type=submit];
+    margin-right: 10px;
+  }
+
+  #addParticipant {
+    margin-top: 22px;
+  }

@@ -1,0 +1,157 @@
+@import "variables";
+
+a:hover {
+  text-decoration: none;
+}
+.btn-primary {
+  background: $orange-color;
+  border: none;
+}
+
+.btn {
+  border-radius: 0;
+  margin-bottom: 10px;
+  font-family: $bold-font;
+}
+
+.btn-lg {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  font-family: MyriadPro-Bold;
+  color: $orange-color;
+}
+h2 {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn.btn-faq {
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+  background: #ccc !important;
+  opacity: .6;
+  line-height: 13px;
+}
+
+.btn.small {
+  font-size: 17px;
+  line-height: 30px;
+  height: 42px;
+}
+.btn-primary:hover {
+  background: #14bef0;
+  text-decoration: underline;
+}
+
+.btn-border {
+  font-size: 20px;
+  border: 3px solid #ccc !important;
+}
+
+label {
+  font-weight: 100;
+  color: #4d4d4d;
+}
+
+.navbar-default {
+  background: inherit;
+  border: none;
+}
+
+.navbar-right {
+  padding: 58px 10px 0 0 !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+  bottom: 0;
+  padding: 5.5px 16px;
+  color: $menucolor;
+  font-size: 20px;
+}
+
+.navbar-default .navbar-nav > li {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.navbar-default .navbar-nav > li:hover {
+  background: inherit;
+}
+
+.navbar-default .navbar-nav > li:hover a {
+  color: $orange-color;
+  background: inherit;
+  text-decoration: underline;
+}
+
+.navbar-toggle {
+  background: $orange-color;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background: $orange-color;
+  color: $menucolor
+}
+
+.navbar-default .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus  {
+  background: $orange-color;
+  color: $menucolor
+}
+
+.navbar-default .navbar-collapse {
+  border: none;
+}
+
+.navbar-collapse {
+  box-shadow: none;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: $menucolor
+}
+
+.form-inline .input-group .input-group-addon, .form-inline .input-group .input-group-btn {
+  padding: 0;
+  border: none;
+  width: 82px;
+}
+
+.input-group {
+  width: 100%;
+}
+.checkbox-inline input[type=checkbox] {
+  position: relative;
+  margin: 0;
+}
+.input-group .form-control {
+  z-index: 0;
+}
+textarea {
+  resize: none;
+}
+.no-padding-right {
+  padding-right: 0;
+}
+@media(max-width: 767px) {
+  .navbar-default .navbar-collapse {
+    position: absolute;
+    width: 100%;
+    background: $bg-header;
+    z-index: 999;
+  }
+  .navbar-brand {
+    position: absolute;
+    z-index: 10;
+  }
+}

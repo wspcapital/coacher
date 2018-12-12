@@ -1,0 +1,13 @@
+@import "../variables";
+h2 {
+  a{
+    color:$orange-color
+  }
+  a:hover, a:focus {
+    color: $orange-color;
+    text-decoration: underline;
+  }
+}
+.start-content {
+  padding: 15px;
+}

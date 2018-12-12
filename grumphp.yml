@@ -1,0 +1,14 @@
+parameters:
+    git_dir: .
+    bin_dir: vendor/bin
+    tasks:
+          phpcs:
+                       standard: "phpcs.rulesets.xml"
+                       show_warnings: true
+                       tab_width: 4
+                       triggered_by: [php]
+                       ignore_patterns:
+                           - "tests/*"
+                           - "*.blade.php"
+                           - "resources/theme_mock/*"
+                           - "resources/lang/*"

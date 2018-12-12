@@ -1,0 +1,37 @@
+@import "./../responsive-table";
+@import "../variables";
+.input-group-addon {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#create-user {
+  margin-top: 15px;
+}
+.sortable {
+  color: $orange-color;
+}
+th {
+  a{
+    color: #ffffff;
+  }
+  a:hover, a:focus {
+    @extend .sortable;
+  }
+}
+
+.custom-pagination {
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.custom-pagination a {
+  color: #000;
+  margin: 0 10px ;
+}
+
+.disabled-pagination {
+  color: #7c8ea3 !important;
+}

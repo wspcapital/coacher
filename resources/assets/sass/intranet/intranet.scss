@@ -1,0 +1,155 @@
+@import "../variables.scss";
+@import "../custom-bootstrap";
+@import "../fonts.scss";
+@import "../footer.scss";
+@import "left-block";
+
+[v-cloak] {
+  display: none;
+}
+
+body {
+  font-family: $font-app;
+  background: $body-bg;
+  font-size: 17px;
+}
+
+header {
+  height: 80px;
+  background: $intranet-header-bg;
+  border-bottom: 1px solid #d3d3d3;
+  margin-bottom: 23px;
+  position: relative;
+}
+
+.navbar-right {
+  padding-top: 43px !important;
+}
+
+.navbar-brand {
+  margin-top: 5px;
+  padding-top: 0;
+}
+
+.navbar-default .navbar-collapse {
+  background: $intranet-header-bg;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #4d4d4d;
+  font-size: 17px;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+.content-inner {
+  border-left: 1px solid #dbdbdb;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #4d4d4d;
+}
+
+.element-group {
+  background: #F5F5F5;
+  padding: 20px;
+}
+
+h2 a {
+  color: $orange-color;
+}
+h2 a:hover, h2 a:focus {
+  text-decoration: underline;
+  color: $orange-color;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+
+@media (max-width: 1300px) {
+    .intranet-logo {
+      img {
+        width: 150px;
+      }
+    }
+  .btn,.small {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1225px) {
+  .intranet-logo {
+    img {
+      width: 120px;
+    }
+  }
+  .pin-logo {
+    img{
+      width: 80px;
+    }
+  }
+}
+
+@media (max-width: 1143px) {
+  .intranet-logo {
+    img {
+      width: 90px;
+    }
+  }
+  .pin-logo {
+    img{
+      width: 65px;
+    }
+  }
+}
+@media(max-width: 1098px) {
+  .intranet-logo {
+    img {
+      width: 150px;
+    }
+  }
+  .pin-logo {
+    img{
+      width: 90px;
+    }
+  }
+}
+
+
+@media(max-width: 768px) {
+  .intranet-logo {
+    display: none;
+  }
+}
+
+/* Menu */
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: block;
+    float: right;
+  }
+  .custom .collapse.navbar-collapse {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .custom .collapse.navbar-collapse.in {
+    display: block !important;
+    visibility: visible !important;
+  }
+  .navbar-header {
+    float: none;
+  }
+}
+
+@media (min-width: 1099px) {
+  .custom .collapse.navbar-collapse {
+    display: block !important;
+    visibility: visible !important;
+  }
+  .navbar-header {
+    float: left;
+  }
+  .navbar-toggle {
+    display: none;
+  }
+}
+/* End Menu*/

@@ -1,0 +1,126 @@
+@import "../custom-bootstrap";
+@import "../fonts.scss";
+@import "../footer.scss";
+
+body {
+  font-family: MyriadPro-Cond;
+  font-size: 17px;
+  line-height: 20px;
+}
+#header {
+  color: #fff;
+  background: url(../../img/background.png);
+  display: none;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3001;
+}
+
+#header {
+  position: absolute;
+}
+
+#header {
+  margin: 0;
+  padding: 0;
+}
+
+.sprite  {
+  top: 18px;
+  right: 27px;
+  cursor: pointer;
+}
+
+.open {
+  width: 42px;
+  height: 30px;
+  background-position: -351px -73px;
+}
+.sprite.logo, .sprite.logo-white {
+  position: absolute;
+  top: 8px;
+  left: 24px;
+}
+.logo {
+  width: 152px;
+  height: 91px;
+  background-position: -157px 0;
+}
+.sprite.close, .sprite.open {
+  position: absolute;
+  top: 18px;
+  right: 27px;
+  cursor: pointer;
+}
+
+.sprite {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(../../img/portal/sprites.png);
+}
+
+.sprite.logo, .sprite.logo-white, .sprite.open, .sprite.close {
+  z-index: 3000;
+}
+
+.logo-white {
+    width: 157px;
+    height: 104px;
+    background-position: 0 0;
+  }
+
+
+#login {
+  margin-top: 50px;
+}
+
+.close {
+  font-size: 21px;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+}
+
+.close {
+  font-weight: 700;
+}
+.close {
+  width: 42px;
+  height: 30px;
+  background-position: -309px -73px;
+}
+
+#header .links {
+  margin-top: 62px;
+  margin-right: 13px;
+  text-align: right;
+}
+#header .links a {
+  margin-bottom: 13px;
+  padding: 0;
+  color: #fff;
+}
+#header .links a:hover {
+  color: #F57B20!important;
+}
+
+#header .links a, #login p, .video-pop .video a {
+  display: block;
+}
+.link, a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#form-submit {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+  #login {
+    margin-top: 125px;
+  }
+}

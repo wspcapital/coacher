@@ -1,0 +1,38 @@
+@import "./../responsive-table";
+
+.vpr-block {
+  padding: 20px;
+}
+.orders-menu {
+  margin-top: 40px;
+}
+.close-order {
+  float: right;
+}
+.order-button {
+  padding-right: 9px;
+}
+video {
+  width: 100%;
+}
+
+@media screen and (max-width: 790px) {
+  table#miyazaki caption { background-image: none; }
+  table#miyazaki thead { display: none; }
+  table#miyazaki tbody td {
+    display: block; padding: .6rem;
+    p {
+      display: inline;
+      padding-left: 25px;
+    }
+  }
+  table#miyazaki tbody tr td:first-child {
+    background: #666; color: #fff;
+  }
+  table#miyazaki tbody td:before {
+    content: attr(data-th);
+    font-weight: bold;
+    display: inline-block;
+    width: 6rem;
+  }
+}
